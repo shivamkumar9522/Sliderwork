@@ -1,0 +1,34 @@
+body{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  
+  }
+  .fa-arrow-right ,.fa-arrow-left{
+    font-size: xx-large;
+    font-weight: bolder;
+  
+  }
+   .frame{
+    height: 170px;
+    width: 312px;
+    overflow: hidden;
+  
+  } 
+  .slider{
+    display: flex;
+  }
+  
+  .image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
